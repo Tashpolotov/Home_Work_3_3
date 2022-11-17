@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgray"
+    tools:context=".Second_Fragment">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:src="@drawable/photo_2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Vaccine Schedule"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/regular"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vaccine doses are available every weekday, and make sure you miss getting the first dose"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/regular"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="@color/gray"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/Next_btn1"
+        style="@style/Base_B"
+        android:text="Next"
+        android:background="@drawable/styl"/>
+
+    <Button
+        android:id="@+id/Skip_btn1"
+        style="@style/Base_C"
+        android:text="Skip"
+        android:background="@drawable/styl" />
+
+
+</FrameLayout>
