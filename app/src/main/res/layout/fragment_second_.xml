@@ -3,13 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/darkgray"
+    android:background="@color/white"
     tools:context=".Second_Fragment">
 
    <ImageView
        android:layout_width="match_parent"
        android:layout_height="250dp"
-       android:src="@drawable/photo_2"/>
+       android:src="@drawable/photo_2"
+       android:scaleType="centerCrop"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,8 +21,7 @@
         android:layout_marginBottom="10dp"
         android:layout_gravity="center"
         android:fontFamily="@font/regular"
-        android:textStyle="bold"
-        android:textColor="@color/black"/>
+        android:textColor="@color/textcolor1"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
         android:fontFamily="@font/regular"
         android:textSize="22sp"
         android:gravity="center"
-        android:textColor="@color/gray"
+        android:textColor="@color/textcolor"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"/>
 
